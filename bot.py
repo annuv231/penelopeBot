@@ -11,7 +11,7 @@ rs= RandomStuff(async_mode=True, api_key= api_key)
 async def on_message(message):
       if message.author == bot.user:
            return
-      if message.channel.id==798556779892965376:
+      if message.channel.id==798556779892965376 or message.channel.id==855841358735867904:
           async with message.channel.typing():
               try:
                   msg = message.content
